@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Programs</title>
+    <meta charset = "UTF-8">
+	<meta name = "author" content = "JC">
+	<meta name = "keywords" content = "HTML, CSS, Javascript">
+	<meta name = "revised" content = "10/23/22">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <nav>
+            <ul>
+                <li class="navb"><a href="Home.html">HOME</a></li>
+                <li class="navb"><a href="About.html">ABOUT</a></li>
+                <li class="navb"><a href="Services.html">SERVICES</a></li>
+                <li class="navb"><a href="Programs.html">PROGRAMS</a></li>
+                <li class="navb"><a href="Contact1.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="intrams">
+            <img class="pics" src="intrams 1.jpg">
+            <img class="pics" src="intrams2.jpg">
+            <img class="pics" src="intrams3.jpg">
+            <h1>INTRAMURALS</h1>
+            <p>
+                PSHS-CRC fosters an inclusive environment, allowing students to not<br>
+                only enhance their skills but also to delve into the realms of enjoyment.<br>
+                Intramurals gives the scholars an opportunity to unwind and enjoy the<br>
+                thrill of competition, along with a supportive atmosphere. Giving them<br>
+                a chance to make new connections and lasting memories. </p>
+        </div>
+        <div class="stemfest">
+            <img class="pics" src="sf 1.jpg">
+            <img class="pics" src="sf 2.jpg">
+            <img class="pics" src="sf 3.jpg">
+            <h1>STEM FEST</h1>
+            <p>
+                STEM Fests at PSHS-CRC showcase exploration, fostering an environment<br>
+                for students to explore science and technology. With interactive exhibits<br>
+                and competitions, these events cultivate curiosity and innovativeness,<br>
+                reflecting the school's unwavering commitment to enhancing students'<br>
+                STEM knowledge and skills for real-world application.</p>
+
+        </div>
+        <div class="rcy">
+            <img class="pics" src="rcy 1.jpg">
+            <img class="pics" src="rcy 2.jpg">
+            <img class="pics" src="rcy 3.jpg">
+            <h1>RED CROSS YOUTH (RCY)</h1>
+            <p>
+                PSHS-CRC provides scholars with the chance to participate in constructive<br>
+                organizations such as the RCY. This opportunity allows students to engage<br>
+                in humanitarian activities and promote service and unity. Through this,<br>
+                students gain essential life skills and a sense of empowerment to <br>
+                contribute to the well-being of both themselves and others. </p>
+        </div>
+
+        <div class="clubs">
+            <img class="pics" src="club 1.jpg">
+            <img class="pics" src="club 2.jpg">
+            <img class="pics" src="club 3.jpg">
+            <h1>CLUBS</h1>
+            <p>
+                PSHS-CRC offers a range of clubs to suit diverse interests, allowing<br>
+                scholars to join those aligned with their aspirations and skills. As they<br>
+                participate, students not only refine their skills but also make connections<br>
+                with their peers and develop teamwork. These clubs support collaborative<br>
+                learning and personal exploration in addition to developing talent. </p>
+        </div>
+
+
+    </center>
+</body>
+<style>
+    body {
+        background-image: linear-gradient(rgba(58, 60, 68, 0.829), rgba(24, 25, 32, 0.75)), url("rp.jpg");
+        background-size: cover;
+    }
+
+    nav {
+                  position: absolute; 
+                  width:fit-content;
+                  background-color: white;
+                  opacity: 0.6;
+                  border-radius: 40px;
+                  margin-top: 43px;
+                  margin-left: 95px;
+                  margin-right: 5px;
+                  padding-right: 40px;
+                  font-weight: bold;
+
+ 
+
+    }
+          
+                 .navb{
+                  float: left;
+                  list-style-type: none;
+                  margin-top:-2px;
+                  margin-bottom: 15px;
+                  margin-left: 86px;
+                  margin-right: 86px;
+                  color: black;
+                  font-family: Montserrat;
+
+                  
+                  
+                 }
+                 a{
+                    text-decoration-line: none;
+                    color: black;
+                        
+
+                 }
+                a:visited{
+                    color: black;
+                }
+                
+          
+                 nav ul li{
+                  position: relative;
+                  
+                }
+          
+          
+                 nav ul li::after{
+                  content:'';
+                  height: 2px;
+                  width: 0%;
+                  position:absolute;
+                  left: 0;
+                  bottom: -5px;
+                  background-color: black;
+                  transition:0.5s;
+                       
+                 }
+                               
+                 nav ul li:hover::after{
+                  width:100%;
+                 }
+
+    .firs {
+
+        width: fit-content;
+        background-color: rgba(147, 183, 207, 0.63);
+        border-radius: 40px;
+        margin-top: 123px;
+        margin-right: 2%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-family: Montserrat;
+        float: left;
+        border: 5px solid white;
+        text-align: center;
+        margin-left: 150px;
+    }
+
+    div {
+        transition: transform 0.2s;
+    }
+
+    div:hover {
+        background-color: rgba(199, 204, 211, 0.863);
+        transition: 0.3s;
+        transform: scale(1.03);
+        transition: 0.4s;
+        color: black;
+    }
+
+    .intrams {
+        background-color: rgba(42, 68, 104, 0.795);
+        width: fit-content;
+        border-radius: 40px;
+        float: left;
+        margin-left: 3%;
+        padding-top: 45px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: Montserrat;
+        color: aliceblue;
+        margin-top: 10%;
+        margin-right: 1%;
+        
+    }
+
+    .stemfest {
+        background-color: rgba(42, 68, 104, 0.795);
+        width: fit-content;
+        border-radius: 40px;
+        float: right;
+        margin-right: 3%;
+        padding-top: 45px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: Montserrat;
+        color: aliceblue;
+        margin-top: 10%;
+    }
+
+    .rcy {
+        background-color: rgba(42, 68, 104, 0.795);
+        width: fit-content;
+        border-radius: 40px;
+        float: left;
+        margin-left: 3%;
+        padding-top: 45px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: Montserrat;
+        color: aliceblue;
+        margin-top: 6%;
+        margin-right: 1%;
+        margin-bottom: 6%;
+    }
+
+    .clubs {
+        background-color: rgba(42, 68, 104, 0.795);
+        width: fit-content;
+        border-radius: 40px;
+        float: right;
+        margin-left: 1%;
+        margin-right: 3%;
+        padding-top: 45px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: Montserrat;
+        color: aliceblue;
+        margin-top: 6%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .pics {
+        width: 170px;
+        height: 170px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        margin-left: 0%;
+    }
+
+    img {
+        border-radius: 30px;
+    }
+
+</style>
+
+</html>

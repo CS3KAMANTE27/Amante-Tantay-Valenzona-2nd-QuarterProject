@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Philippine Science High School - Caraga Region Campus</title>
+        <meta charset = "UTF-8">
+		  <meta name = "author" content = "Zachary">
+		  <meta name = "keywords" content = "HTML, CSS, Javascript">
+		  <meta name = "revised" content = "10/23/22">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+    </head>
+
+    <body>
+         <center>
+            <nav>
+                 <ul>
+                    <li class="navb"><a href="Home.html">HOME</a></li>
+                    <li class="navb"><a href="About.html">ABOUT</a></li>
+                    <li class="navb"><a href="Services.html">SERVICES</a></li>
+                    <li class="navb"><a href="Programs.html">PROGRAMS</a></li>
+                    <li class="navb"><a href="Contact1.html">CONTACT</a></li>
+                </ul>
+            </nav> 
+        </center>
+        <h2 class = "servicetxt">S E R V I C E S</h2>
+
+       
+
+
+        <div class="cid">
+            <img class="pics" src="cid.png">
+            >
+            <h1>CURRICULUM & INSTRUCTION DIVISION (CID)</h1>
+            <p>
+                The Curriculum and Instructional Division is committed to providing a wide range of programs that <br>
+                 uphold the fundamental principles of PISAY, which are Academic Excellence, Patriotism, Integrity, Service, <br>
+                  and Youth Leadership, and help students reach their full potential. This division is dedicated to creating <br>
+                  educational programs that uphold the core values of the school's mission in addition to encouraging academic performance. <br>
+                  The section seeks to promote students' holistic development through unique and thorough methods. </p>
+        </div>
+        <div class="ssd">
+            <img class="pics" src="ssd.png">
+           >
+            <h1>STUDENT AND SERVICES DIVISION (SSD)</h1>
+            <p>
+                In charge of several school branches, the Student Services Division prioritizes the welfare <br>
+                 of its students while concentrating on providing specialized services and advantages. Its crucial <br>
+                 function is to establish a nurturing atmosphere that improves the general welfare of the student body. <br>
+                 The division is committed to offering a thorough framework for interaction and support of students. </p>
+
+        </div>
+        <div class="fad">
+            <img class="pics" src="fad.png">
+            >
+            <h1>FINANCE & ADMINISTRATIVE SERVICES DIVISION (FAD)</h1>
+            <p>
+                Overseeing financial and administrative operations, the Division of Finance and <br>
+                Administration is essential to the school system. This covers duties including accounting, <br>
+                budgeting, and overseeing contracts and purchases of products and services. The division supports <br>
+                the overall operation of the educational system by ensuring transparent and efficient procedures. </p>
+        </div>
+
+      
+        
+        
+
+
+        
+    </body>
+
+    <style>
+         *{margin: 0;}
+
+         body{
+
+            background-image: url("service.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            z-index: 1;
+            height: 300px;
+    }
+                
+                nav {
+                  position: absolute; 
+                  width:fit-content;
+                  background-color: white;
+                  opacity: 0.6;
+                  border-radius: 40px;
+                  margin-top: 50px;
+                  margin-left: 101px;
+                  margin-right: 5px;
+                  padding-right: 45px;
+                  font-weight: bold;
+
+ 
+
+    }
+          
+                 .navb{
+                  float: left;
+                  list-style-type: none;
+                  margin-top:15px;
+                  margin-bottom: 15px;
+                  margin-left: 86px;
+                  margin-right: 86px;
+                  color: black;
+                  font-family: Montserrat;
+
+                  
+                  
+                 }
+                 a{
+                    text-decoration-line: none;
+                        
+
+                 }
+                a:visited{
+                    color: black;
+                }
+                
+          
+                 nav ul li{
+                  position: relative;
+                  
+                }
+          
+          
+                 nav ul li::after{
+                  content:'';
+                  height: 2px;
+                  width: 0%;
+                  position:absolute;
+                  left: 0;
+                  bottom: -5px;
+                  background-color: black;
+                  transition:0.5s;
+                       
+                 }
+                               
+                 nav ul li:hover::after{
+                  width:100%;
+                 }
+                 
+                
+              
+                .servicetxt{
+                    float-bottom: 100px;
+                    position: absolute;
+                    bottom: 300px;
+                    margin-left: 570px;
+                    text-align: center;
+                    font-size: 50px;
+                    color: rgb(6, 6, 145);
+                    text-decoration-line: underline;
+                }
+              
+
+div{ 
+transition: transform 0.2s;
+}
+
+div:hover {
+background-color: rgba(67, 47, 215, 0.863);
+transition: 0.3s;
+transform: scale(1.03);
+transition: 0.4s;
+color: rgb(255, 255, 255);
+}
+
+.cid {
+background-color: rgba(27, 101, 204, 0.795);
+width: fit-content;
+border-radius: 40px;
+float: left;
+margin-left: 15%;
+padding-top: 45px;
+padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+font-family: Montserrat;
+color: rgb(0, 0, 0);
+margin-top: 30%;
+margin-right: 1%;
+
+}
+
+.ssd {
+    background-color: rgba(27, 101, 204, 0.795);
+width: fit-content;
+border-radius: 40px;
+float: left;
+margin-left: 15%;
+padding-top: 45px;
+padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+font-family: Montserrat;
+color: rgb(0, 0, 0);
+margin-top: 5%;
+margin-right: 1%;
+}
+
+.fad {
+background-color:rgba(27, 101, 204, 0.795);
+width: fit-content;
+border-radius: 40px;
+float: left;
+margin-left: 15%;
+padding-top: 45px;
+padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+font-family: Montserrat;
+color: rgb(0, 0, 0);
+margin-top: 5%;
+margin-right: 1%;
+}
+
+
+h1 {
+font-size: 25px;
+font-weight: bold;
+}
+
+p {
+font-size: 15px;
+text-align: center;
+
+}
+
+.pics {
+width: 1000px;
+height: 250px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+position: relative;
+margin-left:0%;
+}
+
+img {
+border-radius: 30px;
+}
+
+
+    </style>
+
+</html>
+
+
